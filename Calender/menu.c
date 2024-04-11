@@ -1,8 +1,20 @@
+//prog71985-winter24-project-number1
+// abhimanyu rajeevan
+//appointment  program
+
+
 #include "menu.h"
 #include <stdio.h>
 
+void printWelcome() {
+    printf(" **********************\n");
+    printf("**     Welcome to     **\n");
+    printf("**   Appointment Manager  **\n");
+    printf(" **********************\n");
+}
+
 void Display_Menu() {
-    printf("\n----- Appointment Manager -----\n\n");
+   
     printf("1. Add New Appointment\n");
     printf("2. Delete Appointment\n");
     printf("3. Update Appointment\n");

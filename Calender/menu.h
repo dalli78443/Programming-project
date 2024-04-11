@@ -1,6 +1,10 @@
-#ifndef MENU_H
-#define MENU_H
+//prog71985-winter24-project-number1
+// abhimanyu rajeevan
+//appointment  program
 
+#pragma once
+
+void printWelcome();
 void Display_Menu();
 
-#endif /* MENU_H */
+

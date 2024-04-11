@@ -1,5 +1,10 @@
 
 #include <stdio.h>
+//prog71985-winter24-project-number1
+// alli demilade
+//appointment  program
+
+
 #include "menu.h"
 #include "appointment.h"
 #include "file_handling.h"
@@ -17,6 +22,8 @@ int main() {
     // Main menu
     int choice;
     do {
+        printWelcome();
+
         Display_Menu();
         scanf("%d", &choice);
 

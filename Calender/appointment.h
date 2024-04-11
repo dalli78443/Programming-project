@@ -1,5 +1,9 @@
-#ifndef APPOINTMENT_H
-#define APPOINTMENT_H
+//prog71985-winter24-project-number1
+// ansh dhunna
+//appointment  program
+
+#pragma once
+
 
 #include <time.h>
 
@@ -12,7 +16,7 @@ typedef struct {
     char description[MAX_DESCRIPTION_LENGTH];
     time_t date;
     // Add more fields as needed
-} Appointment;
+}Appointment;
 
 void Add_New_Appointment(Appointment appointments[], int* numAppointments);
 void Delete_Appointment(Appointment appointments[], int* numAppointments);
@@ -21,4 +25,3 @@ void Show_Single_Appointment(Appointment appointments[], int numAppointments);
 void Show_All_Appointments(Appointment appointments[], int numAppointments);
 void Search_Appointments(Appointment appointments[], int numAppointments);
 void Organize_Appointments(Appointment appointments[], int numAppointments);
-#endif /* APPOINTMENT_H */

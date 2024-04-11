@@ -1,3 +1,7 @@
+//prog71985-winter24-project-number1
+// ansh dhunna, abhimanyu rajeevan
+//appointment  program
+
 #include "appointment.h"
 #include <stdio.h>
 #include <string.h>
