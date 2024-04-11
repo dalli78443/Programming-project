@@ -14,7 +14,7 @@ void printWelcome() {
 }
 
 void Display_Menu() {
-   
+
     printf("1. Add New Appointment\n");
     printf("2. Delete Appointment\n");
     printf("3. Update Appointment\n");
@@ -27,3 +27,4 @@ void Display_Menu() {
     printf("0. Exit the program\n\n");
     printf("Enter your choice: ");
 }
+
