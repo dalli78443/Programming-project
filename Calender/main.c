@@ -17,7 +17,7 @@ int main() {
     int numAppointments = 0;
 
     // Load appointments from file if any
-    Load_Appointments_From_File("appointments.txt", appointments, &numAppointments);
+    Load_Appointments_From_File("appointments.dat", appointments, &numAppointments);
 
     // Main menu
     int choice;
@@ -47,10 +47,10 @@ int main() {
             Search_Appointments(appointments, numAppointments);
             break;
         case 7:
-            Save_Appointments_To_File("appointments.txt", appointments, numAppointments);
+            Save_Appointments_To_File("appointments.dat", appointments, numAppointments);
             break;
         case 8:
-            Load_Appointments_From_File("appointments.txt", appointments, &numAppointments);
+            Load_Appointments_From_File("appointments.dat", appointments, &numAppointments);
             break;
         case 9:
             Organize_Appointments(appointments, numAppointments);
