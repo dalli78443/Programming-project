@@ -18,6 +18,12 @@
 // define max appointments upt 100
 
 
+// to encounter the problems with the scanf,strcmp and strcpy
+// _CRT_SECURE_NO_WARNINGS is used in by going to properties
+// after going to properties going to the reprocessor and write
+// _CRT_SECURE_NO_WARNINGS
+
+
 #define MAX_APPOINTMENTS 100
 
 // now start the function from int main
@@ -35,14 +41,14 @@ int main() {
     // that are saved prevously in the file name cslled
     // appointment.txt 
 
-    Load_Appointments_From_File("appointment.dat", appointments, &numAppointments);
+    Load_Appointments_From_File("appointments.txt", appointments, &numAppointments);
 
     // create a variable for storing the value inputed by the user
     // use do while statement for running the functions
     // now recall the print welcome funxtion, this will print the the top welcome output 
     // for better documentaion and out
     // Load appointments from file if any
-    Load_Appointments_From_File("appointments.dat", appointments, &numAppointments);
+    Load_Appointments_From_File("appointments.txt", appointments, &numAppointments);
 
     int choice;
     do {
@@ -76,10 +82,10 @@ int main() {
             Search_Appointments(appointments, numAppointments);  // will search a particular appointment 
             break;
         case 7:
-            Save_Appointments_To_File("appointments.dat", appointments, &numAppointments); // will save all the appointments into txt file
+            Save_Appointments_To_File("appointments.txt", appointments, &numAppointments); // will save all the appointments into txt file
             break;
         case 8:
-            Load_Appointments_From_File("appointments.dat", appointments, numAppointments);
+            Load_Appointments_From_File("appointments.txt", appointments, &numAppointments);
             break;
         case 9:
             Organize_Appointments(appointments, numAppointments); //  will organize all the code into a particular manner

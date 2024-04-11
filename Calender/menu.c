@@ -19,7 +19,7 @@
 // to increase the experience
 
 void printWelcome() {
-    printf(" **********************\n");
+    printf("\n\n **********************\n");
     printf("**     Welcome to     **\n");
     printf("**   Appointment Manager  **\n");
     printf(" **********************\n");
