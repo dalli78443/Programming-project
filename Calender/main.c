@@ -82,10 +82,10 @@ int main() {
             Search_Appointments(appointments, numAppointments);  // will search a particular appointment 
             break;
         case 7:
-            Save_Appointments_To_File("appointments.txt", appointments, &numAppointments); // will save all the appointments into txt file
+            Save_Appointments_To_File("appointments.txt", appointments, numAppointments); // will save all the appointments into txt file
             break;
         case 8:
-            Load_Appointments_From_File("appointments.txt", appointments, &numAppointments);
+            Load_Appointments_From_File("appointments.txt", appointments, numAppointments);
             break;
         case 9:
             Organize_Appointments(appointments, numAppointments); //  will organize all the code into a particular manner
